@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+}
+
+.box {
+  background: whitesmoke;
+  padding: 30px 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  background-color: indigo;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: lightskyblue;
+}
